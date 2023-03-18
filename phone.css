@@ -1,0 +1,88 @@
+/* Navigation */
+#navbar {
+    flex-direction: column;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+
+/* Home Section */
+#home{
+    height: 380px;
+    padding: 3px 25px;
+}
+
+#home::before{
+    height: 480px;
+}
+
+#home p{
+    font-size: 13px;
+}
+
+/* Service Section */
+#services{
+    flex-direction: column;
+    padding: 0px 40px;
+    margin: 10px
+}
+
+#services-container{
+    padding: 0px;
+}
+
+#services .box{
+    width: 80%;
+    margin: 10px 0px 10px 10px;
+}
+
+
+/* Advantages Section */
+#advantages-container{
+    padding: 30px 0px;
+}
+
+#advantages{
+    height: 900px;
+    flex-direction: column;
+    padding: 0px;
+}
+
+.advantages_item{
+    width: 326px;
+    height: 25%;
+}
+
+/* Feedback Section */
+#h-primary{
+    padding: 0px 38px;
+    font-size: 26px;
+}
+
+#slider figure .feedback-inner{
+
+    width: 100%;
+}
+/* Brand Section */
+#brand-section{
+    overflow: hidden;
+}
+
+/*Contact Section*/
+
+/* Info-Section */
+
+/* Footer */
+
+/* Utility Classes */
+.h-primary{
+    font-size: 26px;
+}
+
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}
